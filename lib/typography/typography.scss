@@ -6,5 +6,7 @@
 
 $cuStylesRoot: '../' !default;
 
+@import "../parameters";
+
 @import "fonts";
 @import "style";
