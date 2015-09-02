@@ -12,14 +12,21 @@ module.exports = {
   name: name,
   lib: {
     sass: true,
-    sass_base: 'sass',
+    sass_base: '',
     sass_dest: '',
     copy: true,
   },
   bundle: {
     browserify: false,
-    base: 'js',
-    sass_base: 'sass',
+    sass_base: '',
     sass_dest: '',
+  },
+  compile: {
+    ts: false,
+  },
+  server: {
+    inject: {
+      scripts_before: [],
+    },
   },
 };
