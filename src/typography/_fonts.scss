@@ -6,10 +6,6 @@
 
  // Cinzel
 
-.cu-font-cinzel {
-	font-family: 'Cinzel', serif;
-}
-
 @font-face {
 	font-family: 'Cinzel';
 	font-style: normal;
@@ -31,11 +27,11 @@
 	src: url('#{$cuStylesRoot}typography/fonts/Cinzel-normal-900.woff') format('woff');
 }
 
-// Merriweather Sans
-
-.cu-font-merriweather-sans {
-	font-family: 'Merriweather Sans', sans-serif;
+.cu-font-cinzel {
+ font-family: 'Cinzel', serif;
 }
+
+// Merriweather Sans
 
 @font-face {
 	font-family: 'Merriweather Sans';
@@ -93,15 +89,19 @@
 	src: url('#{$cuStylesRoot}typography/fonts/Merriweather_Sans-italic-800.woff') format('woff');
 }
 
-// Trade Winds
-
-.cu-font-trade-winds {
-	font-family: 'Trade Winds', cursive;
+.cu-font-merriweather-sans {
+	font-family: 'Merriweather Sans', sans-serif;
 }
+
+// Trade Winds
 
 @font-face {
 	font-family: 'Trade Winds';
 	font-style: normal;
 	font-weight: 400;
 	src: url('#{$cuStylesRoot}typography/fonts/Trade_Winds-normal-400.woff') format('woff');
+}
+
+.cu-font-trade-winds {
+	font-family: 'Trade Winds', cursive;
 }

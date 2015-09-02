@@ -1,0 +1,100 @@
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+.cu-color-yellow {
+  color: #AA9739; }
+
+.cu-color-yellow-dark {
+  color: #978633; }
+
+.cu-color-yellow-light {
+  color: #bda83f; }
+
+.cu-color-red {
+  color: #960F0F; }
+
+.cu-color-red-dark {
+  color: #7f0d0d; }
+
+.cu-color-red-light {
+  color: #ad1111; }
+
+.cu-color-blue {
+  color: #0D485E; }
+
+.cu-color-blue-dark {
+  color: #0a3748; }
+
+.cu-color-blue-light {
+  color: #105974; }
+
+.cu-color-green {
+  color: #0C780C; }
+
+.cu-color-green-dark {
+  color: #0a610a; }
+
+.cu-color-green-light {
+  color: #0e8f0e; }
+
+.cu-color-dark {
+  color: #111111; }
+
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+.cu-bg-color-yellow {
+  background-color: #AA9739; }
+
+.cu-bg-color-yellow-dark {
+  background-color: #978633; }
+
+.cu-bg-color-yellow-light {
+  background-color: #bda83f; }
+
+.cu-bg-color-red {
+  background-color: #960F0F; }
+
+.cu-bg-color-red-dark {
+  background-color: #7f0d0d; }
+
+.cu-bg-color-red-light {
+  background-color: #ad1111; }
+
+.cu-bg-color-blue {
+  background-color: #0D485E; }
+
+.cu-bg-color-blue-dark {
+  background-color: #0a3748; }
+
+.cu-bg-color-blue-light {
+  background-color: #105974; }
+
+.cu-bg-color-green {
+  background-color: #0C780C; }
+
+.cu-bg-color-green-dark {
+  background-color: #0a610a; }
+
+.cu-bg-color-green-light {
+  background-color: #0e8f0e; }
+
+.cu-bg-color-dark {
+  background-color: #111111; }
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9yL2NvbG9yL2NvbG9yLnNjc3MiLCJfcGFyYW1ldGVycy5zY3NzIiwiY29sb3IvX3RleHQuc2NzcyIsImNvbG9yL19iYWNrZ3JvdW5kLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7R0FJRztBQ0pIOzs7O0dBSUc7QUNKSDs7OztHQUlHO0FBRUgsZ0JBQWdCLENBQUM7RUFDZixLQUFLLEVEUVEsT0FBTyxHQ1RKOztBQUlsQixxQkFBcUIsQ0FBQztFQUNwQixLQUFLLEVES2EsT0FBTSxHQ05IOztBQUl2QixzQkFBc0IsQ0FBQztFQUNyQixLQUFLLEVERWMsT0FBTyxHQ0hKOztBQUl4QixhQUFhLENBQUM7RUFDWixLQUFLLEVEREssT0FBTyxHQ0FKOztBQUlmLGtCQUFrQixDQUFDO0VBQ2pCLEtBQUssRURKVSxPQUFNLEdDR0g7O0FBSXBCLG1CQUFtQixDQUFDO0VBQ2xCLEtBQUssRURQVyxPQUFPLEdDTUo7O0FBSXJCLGNBQWMsQ0FBQztFQUNkLEtBQUssRURWTyxPQUFPLEdDU0o7O0FBSWhCLG1CQUFtQixDQUFDO0VBQ2xCLEtBQUssRURiVyxPQUFNLEdDWUg7O0FBSXJCLG9CQUFvQixDQUFDO0VBQ25CLEtBQUssRURoQlksT0FBTyxHQ2VKOztBQUl0QixlQUFlLENBQUM7RUFDZixLQUFLLEVEbkJRLE9BQU8sR0NrQko7O0FBSWpCLG9CQUFvQixDQUFDO0VBQ25CLEtBQUssRUR0QlksT0FBTSxHQ3FCSDs7QUFJdEIscUJBQXFCLENBQUM7RUFDcEIsS0FBSyxFRHpCYSxPQUFPLEdDd0JKOztBQUl2QixjQUFjLENBQUM7RUFDZCxLQUFLLEVENUNPLE9BQU8sR0MyQ0o7O0FDdERoQjs7OztHQUlHO0FBRUgsbUJBQW1CLENBQUM7RUFDbEIsZ0JBQWdCLEVGUUgsT0FBTyxHRVREOztBQUlyQix3QkFBd0IsQ0FBQztFQUN2QixnQkFBZ0IsRUZLRSxPQUFNLEdFTkE7O0FBSTFCLHlCQUF5QixDQUFDO0VBQ3hCLGdCQUFnQixFRkVHLE9BQU8sR0VIRDs7QUFJM0IsZ0JBQWdCLENBQUM7RUFDZixnQkFBZ0IsRUZETixPQUFPLEdFQUQ7O0FBSWxCLHFCQUFxQixDQUFDO0VBQ3BCLGdCQUFnQixFRkpELE9BQU0sR0VHQTs7QUFJdkIsc0JBQXNCLENBQUM7RUFDckIsZ0JBQWdCLEVGUEEsT0FBTyxHRU1EOztBQUl4QixpQkFBaUIsQ0FBQztFQUNqQixnQkFBZ0IsRUZWSixPQUFPLEdFU0Q7O0FBSW5CLHNCQUFzQixDQUFDO0VBQ3JCLGdCQUFnQixFRmJBLE9BQU0sR0VZQTs7QUFJeEIsdUJBQXVCLENBQUM7RUFDdEIsZ0JBQWdCLEVGaEJDLE9BQU8sR0VlRDs7QUFJekIsa0JBQWtCLENBQUM7RUFDbEIsZ0JBQWdCLEVGbkJILE9BQU8sR0VrQkQ7O0FBSXBCLHVCQUF1QixDQUFDO0VBQ3RCLGdCQUFnQixFRnRCQyxPQUFNLEdFcUJBOztBQUl6Qix3QkFBd0IsQ0FBQztFQUN2QixnQkFBZ0IsRUZ6QkUsT0FBTyxHRXdCRDs7QUFJMUIsaUJBQWlCLENBQUM7RUFDaEIsZ0JBQWdCLEVGNUNMLE9BQU8sR0UyQ0QiLCJmaWxlIjoiY29sb3IvY29sb3IuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXHJcbiAqIFRoaXMgU291cmNlIENvZGUgRm9ybSBpcyBzdWJqZWN0IHRvIHRoZSB0ZXJtcyBvZiB0aGUgTW96aWxsYSBQdWJsaWNcclxuICogTGljZW5zZSwgdi4gMi4wLiBJZiBhIGNvcHkgb2YgdGhlIE1QTCB3YXMgbm90IGRpc3RyaWJ1dGVkIHdpdGggdGhpc1xyXG4gKiBmaWxlLCBZb3UgY2FuIG9idGFpbiBvbmUgYXQgaHR0cDovL21vemlsbGEub3JnL01QTC8yLjAvLlxyXG4gKi9cclxuXHJcbkBpbXBvcnQgXCIuLi9wYXJhbWV0ZXJzXCI7XHJcblxyXG5AaW1wb3J0IFwidGV4dFwiO1xyXG5AaW1wb3J0IFwiYmFja2dyb3VuZFwiXHJcbiIsbnVsbCxudWxsLG51bGxdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ== */
