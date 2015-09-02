@@ -4,11 +4,9 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-$cuStylesRoot: '../' !default;
-
-@import "../parameters";
-
-@import "fonts";
-@import "styles";
-@import "lists";
-@import "tables";
+ .cu-table {
+   width: 100%;
+   th {
+     font-weight: bold;
+   }
+ }
