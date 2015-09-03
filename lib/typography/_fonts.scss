@@ -4,104 +4,104 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
- // Cinzel
+// Cinzel
 
 @font-face {
-	font-family: 'Cinzel';
-	font-style: normal;
-	font-weight: 400;
-	src: url('#{$cuStylesRoot}typography/fonts/Cinzel-normal-400.woff') format('woff');
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$cu-styles-root}typography/fonts/Cinzel-normal-400.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Cinzel';
-	font-style: normal;
-	font-weight: 700;
-	src: url('#{$cuStylesRoot}typography/fonts/Cinzel-normal-700.woff') format('woff');
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$cu-styles-root}typography/fonts/Cinzel-normal-700.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Cinzel';
-	font-style: normal;
-	font-weight: 900;
-	src: url('#{$cuStylesRoot}typography/fonts/Cinzel-normal-900.woff') format('woff');
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 900;
+  src: url('#{$cu-styles-root}typography/fonts/Cinzel-normal-900.woff') format('woff');
 }
 
 .cu-font-cinzel {
- font-family: 'Cinzel', serif;
+  @include cu-font-cinzel();
 }
 
 // Merriweather Sans
 
 @font-face {
-	font-family: 'Merriweather Sans';
-	font-style: normal;
-	font-weight: 300;
-	src: url('#{$cuStylesRoot}typography/fonts/Merriweather_Sans-normal-300.woff') format('woff');
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('#{$cu-styles-root}typography/fonts/Merriweather_Sans-normal-300.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Merriweather Sans';
-	font-style: normal;
-	font-weight: 400;
-	src: url('#{$cuStylesRoot}typography/fonts/Merriweather_Sans-normal-400.woff') format('woff');
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$cu-styles-root}typography/fonts/Merriweather_Sans-normal-400.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Merriweather Sans';
-	font-style: normal;
-	font-weight: 700;
-	src: url('#{$cuStylesRoot}typography/fonts/Merriweather_Sans-normal-700.woff') format('woff');
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$cu-styles-root}typography/fonts/Merriweather_Sans-normal-700.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Merriweather Sans';
-	font-style: normal;
-	font-weight: 800;
-	src: url('#{$cuStylesRoot}typography/fonts/Merriweather_Sans-normal-800.woff') format('woff');
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('#{$cu-styles-root}typography/fonts/Merriweather_Sans-normal-800.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Merriweather Sans';
-	font-style: italic;
-	font-weight: 300;
-	src: url('#{$cuStylesRoot}typography/fonts/Merriweather_Sans-italic-300.woff') format('woff');
+  font-family: 'Merriweather Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: url('#{$cu-styles-root}typography/fonts/Merriweather_Sans-italic-300.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Merriweather Sans';
-	font-style: italic;
-	font-weight: 400;
-	src: url('#{$cuStylesRoot}typography/fonts/Merriweather_Sans-italic-400.woff') format('woff');
+  font-family: 'Merriweather Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('#{$cu-styles-root}typography/fonts/Merriweather_Sans-italic-400.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Merriweather Sans';
-	font-style: italic;
-	font-weight: 700;
-	src: url('#{$cuStylesRoot}typography/fonts/Merriweather_Sans-italic-700.woff') format('woff');
+  font-family: 'Merriweather Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('#{$cu-styles-root}typography/fonts/Merriweather_Sans-italic-700.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Merriweather Sans';
-	font-style: italic;
-	font-weight: 800;
-	src: url('#{$cuStylesRoot}typography/fonts/Merriweather_Sans-italic-800.woff') format('woff');
+  font-family: 'Merriweather Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: url('#{$cu-styles-root}typography/fonts/Merriweather_Sans-italic-800.woff') format('woff');
 }
 
 .cu-font-merriweather-sans {
-	font-family: 'Merriweather Sans', sans-serif;
+  @include cu-font-merriweather-sans();
 }
 
 // Trade Winds
 
 @font-face {
-	font-family: 'Trade Winds';
-	font-style: normal;
-	font-weight: 400;
-	src: url('#{$cuStylesRoot}typography/fonts/Trade_Winds-normal-400.woff') format('woff');
+  font-family: 'Trade Winds';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$cu-styles-root}typography/fonts/Trade_Winds-normal-400.woff') format('woff');
 }
 
 .cu-font-trade-winds {
-	font-family: 'Trade Winds', cursive;
+  @include cu-font-trade-winds();
 }

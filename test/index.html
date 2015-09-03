@@ -4,71 +4,365 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>CU - Styles</title>
-    <link rel="stylesheet" href="../dist/cu-styles.css">
+  <meta charset="UTF-8">
+  <title>CU - Styles</title>
+  <link rel="stylesheet" href="../dist/cu-styles.css">
+  <style>
+    .demo-body {
+      background: url('images/cu-background.png');
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .demo-window-container {
+      min-width: 193px;
+      width: 193px;
+      height: 200px;
+      margin: 10px;
+    }
+  </style>
 </head>
-<body>
-  <div class="cu-font-merriweather-sans">
-    <div style="position:absolute;width:300px;height:500px;left:30px;top:30px;">
-      <dl>
-        <dt class="cu-color-dark">Colors</dt>
-        <dd></dd>
-        <dd class="cu-color-yellow-light">Yellow Light</dd>
-        <dd class="cu-color-yellow">Yellow</dd>
-        <dd class="cu-color-yellow-dark">Yellow Dark</dd>
-        <dd></dd>
-        <dd class="cu-color-red-light">Red Light</dd>
-        <dd class="cu-color-red">Red</dd>
-        <dd class="cu-color-red-dark">Red Dark</dd>
-        <dd></dd>
-        <dd class="cu-color-green-light">Green Light</dd>
-        <dd class="cu-color-green">Green</dd>
-        <dd class="cu-color-green-dark">Green Dark</dd>
-        <dd></dd>
-        <dd class="cu-color-blue-light">Blue Light</dd>
-        <dd class="cu-color-blue">Blue</dd>
-        <dd class="cu-color-blue-dark">Blue Dark</dd>
-      </dl>
-      <table class="cu-table">
-        <thead>
-          <tr>
-            <th>
-              Title 1
-            </th>
-            <th>
-              Title 2
-            </th>
-            <th>
-              Title 3
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              ...
-            </td>
-            <td>
-              ...
-            </td>
-            <td>
-              ...
-            </td>
-          </tr>
-        </tbody>
-      </table>
+<body class="demo-body">
+
+<!-- default window - header and footer -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-minimize"></a>
+        <a class="cu-window-close"></a>
+      </div>
     </div>
-    <div style="position:absolute;width:300px;height:500px;right:30px;top:30px;">
-      <div class="cu-window cu-window-transparent">
-        <div class="cu-window-header">
-        </div>
-        <div class="cu-window-content">
-        </div>
-        <div class="cu-window-footer">
-        </div>
+    <div class="cu-window-content"></div>
+    <div class="cu-window-footer">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - header -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-minimize"></a>
+      </div>
+    </div>
+    <div class="cu-window-content"></div>
+  </div>
+</div>
+
+<!-- default window - footer -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-content"></div>
+    <div class="cu-window-footer">
+      <div class="cu-window-title">Sub Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
       </div>
     </div>
   </div>
+</div>
+
+<!-- default window - no header or footer -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-content">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - no header or footer - canvas -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-content cu-window-bg-canvas">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - red -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-red">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content"></div>
+    <div class="cu-window-footer cu-window-bg-red">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - green -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-green">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content"></div>
+    <div class="cu-window-footer cu-window-bg-green">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - blue -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-blue">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content"></div>
+    <div class="cu-window-footer cu-window-bg-blue">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - yellow -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-yellow">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content"></div>
+    <div class="cu-window-footer cu-window-bg-yellow">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - brown -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-brown">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content"></div>
+    <div class="cu-window-footer cu-window-bg-brown">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- default window - red -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-red">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content cu-window-bg-red"></div>
+    <div class="cu-window-footer cu-window-bg-red">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - green -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-green">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content cu-window-bg-green"></div>
+    <div class="cu-window-footer cu-window-bg-green">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - blue -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-blue">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content cu-window-bg-blue"></div>
+    <div class="cu-window-footer cu-window-bg-blue">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - yellow -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-yellow">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content cu-window-bg-yellow"></div>
+    <div class="cu-window-footer cu-window-bg-yellow">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - brown -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-brown">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content cu-window-bg-brown"></div>
+    <div class="cu-window-footer cu-window-bg-brown">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+
+<!-- default window - default -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content cu-window-bg-canvas"></div>
+    <div class="cu-window-footer">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - red -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-red">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content cu-window-bg-canvas"></div>
+    <div class="cu-window-footer cu-window-bg-red">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - green -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-green">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content cu-window-bg-canvas"></div>
+    <div class="cu-window-footer cu-window-bg-green">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - blue -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-blue">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content cu-window-bg-canvas"></div>
+    <div class="cu-window-footer cu-window-bg-blue">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - yellow -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-yellow">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content cu-window-bg-canvas"></div>
+    <div class="cu-window-footer cu-window-bg-yellow">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+<!-- default window - brown -->
+<div class="demo-window-container">
+  <div class="cu-window cu-window-transparent">
+    <div class="cu-window-header cu-window-bg-brown">
+      <div class="cu-window-title">Title</div>
+      <div class="cu-window-actions">
+        <a class="cu-window-close"></a>
+      </div>
+    </div>
+    <div class="cu-window-content cu-window-bg-canvas"></div>
+    <div class="cu-window-footer cu-window-bg-brown">
+      <div class="cu-window-title">Sub Title</div>
+    </div>
+  </div>
+</div>
+
+
+<!-- basic-frame window - normal -->
+<!--<div class="demo-window-container">-->
+  <!--<div class="cu-window-basic-frame cu-window-transparent">-->
+    <!--<div class="cu-window-content">-->
+      <!--<div class="cu-window-title cu-text-center">Title</div>-->
+      <!--<div class="cu-window-actions">-->
+        <!--<a class="cu-window-close"></a>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+
 </body>
 </html>

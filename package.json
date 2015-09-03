@@ -23,7 +23,9 @@
     "type": "git",
     "url": "https://github.com/csegames/cu-boilerplate-library.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bourbon": "^4.2.4"
+  },
   "devDependencies": {
     "gulp": "^3.9.0",
     "cu-build-tools": "git+https://github.com/CUModSquad/cu-build-tools.git#master"

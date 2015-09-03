@@ -1,0 +1,90 @@
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+.cu-selectable {
+  cursor: auto;
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important; }
+  .cu-selectable > * {
+    cursor: auto;
+    -webkit-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    user-select: text !important; }
+
+.cu-not-selectable {
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .cu-not-selectable > * {
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+.cu-cursor-default {
+  cursor: default; }
+
+.cu-cursor-auto {
+  cursor: auto; }
+
+.cu-cursor-pointer {
+  cursor: pointer; }
+
+button, a, input[type="button"], input[type="submit"] {
+  cursor: pointer !important; }
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1pc2MvbWlzYy9taXNjLnNjc3MiLCJfaW5jbHVkZXMuc2NzcyIsIl9wYXJhbWV0ZXJzLnNjc3MiLCJfbWl4aW5zLnNjc3MiLCJtaXNjL19taXhpbnMuc2NzcyIsImNvbG9yL19taXhpbnMuc2NzcyIsInR5cG9ncmFwaHkvX21peGlucy5zY3NzIiwid2luZG93L19taXhpbnMuc2NzcyIsIm1pc2MvX3NlbGVjdC5zY3NzIiwiLi4vbm9kZV9tb2R1bGVzL2JvdXJib24vYXBwL2Fzc2V0cy9zdHlsZXNoZWV0cy9hZGRvbnMvX3ByZWZpeGVyLnNjc3MiLCJtaXNjL19jdXJzb3Iuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7OztHQUlHO0FDSkg7Ozs7R0FJRztBQ0pIOzs7O0dBSUc7QUNKSDs7OztHQUlHO0FDSkg7Ozs7R0FJRztBQ0pIOzs7O0dBSUc7QUNKSDs7OztHQUlHO0FDSkg7Ozs7R0FJRztBQ0pIOzs7O0dBSUc7QUFFSCxjQUFjLENBQUM7RUpDYixNQUFNLEVBQUUsSUFBSztFSzRCUCxtQkFBb0IsRUwzQkwsSUFBSSxDQUFDLFVBQVU7RUsrQjlCLGdCQUFpQixFTC9CRixJQUFJLENBQUMsVUFBVTtFS21DOUIsZUFBZ0IsRUxuQ0QsSUFBSSxDQUFDLFVBQVU7RUsyQzlCLFdBQVksRUwzQ0csSUFBSSxDQUFDLFVBQVUsR0lGdEI7RUpHWixjQUFjLEdBQUcsQ0FBQyxDQUFoQjtJQUNGLE1BQU0sRUFBRSxJQUFLO0lLeUJULG1CQUFvQixFTHhCSCxJQUFJLENBQUMsVUFBVTtJSzRCaEMsZ0JBQWlCLEVMNUJBLElBQUksQ0FBQyxVQUFVO0lLZ0NoQyxlQUFnQixFTGhDQyxJQUFJLENBQUMsVUFBVTtJS3dDaEMsV0FBWSxFTHhDSyxJQUFJLENBQUMsVUFBVSxHQUZqQzs7QUlDUCxrQkFBa0IsQ0FBQztFSk1qQixNQUFNLEVBQUUsT0FBUTtFS21CVixtQkFBb0IsRUxsQkwsSUFBSTtFS3NCbkIsZ0JBQWlCLEVMdEJGLElBQUk7RUswQm5CLGVBQWdCLEVMMUJELElBQUk7RUtrQ25CLFdBQVksRUxsQ0csSUFBSSxHSVBQO0VKUWhCLGtCQUFrQixHQUFHLENBQUMsQ0FBcEI7SUFDRixNQUFNLEVBQUUsT0FBUTtJS2dCWixtQkFBb0IsRUxmSCxJQUFJO0lLbUJyQixnQkFBaUIsRUxuQkEsSUFBSTtJS3VCckIsZUFBZ0IsRUx2QkMsSUFBSTtJSytCckIsV0FBWSxFTC9CSyxJQUFJLEdBRnRCOztBTWxCUDs7OztHQUlHO0FBRUgsa0JBQWtCLENBQUM7RUFDakIsTUFBTSxFQUFFLE9BQVEsR0FERTs7QUFJcEIsZUFBZSxDQUFDO0VBQ2QsTUFBTSxFQUFFLElBQUssR0FERTs7QUFJakIsa0JBQWtCLENBQUM7RUFDakIsTUFBTSxFQUFFLE9BQVEsR0FERTs7QUFJZ0MsTUFBTSxFQUFFLENBQUMsRUFBRSxLQUFLLENBQUEsSUFBQyxDQUFLLFFBQUwsQUFBYSxHQUFHLEtBQUssQ0FBQSxJQUFDLENBQUssUUFBTCxBQUFhLEVBQWxEO0VBQ3BELE1BQU0sRUFBRSxrQkFBbUIsR0FEMEIiLCJmaWxlIjoibWlzYy9taXNjLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxyXG4gKiBUaGlzIFNvdXJjZSBDb2RlIEZvcm0gaXMgc3ViamVjdCB0byB0aGUgdGVybXMgb2YgdGhlIE1vemlsbGEgUHVibGljXHJcbiAqIExpY2Vuc2UsIHYuIDIuMC4gSWYgYSBjb3B5IG9mIHRoZSBNUEwgd2FzIG5vdCBkaXN0cmlidXRlZCB3aXRoIHRoaXNcclxuICogZmlsZSwgWW91IGNhbiBvYnRhaW4gb25lIGF0IGh0dHA6Ly9tb3ppbGxhLm9yZy9NUEwvMi4wLy5cclxuICovXHJcblxyXG4kY3VTdHlsZXNSb290OiAnLi4vJyAhZGVmYXVsdDtcclxuXHJcbkBpbXBvcnQgXCIuLi9pbmNsdWRlc1wiO1xyXG5cclxuQGltcG9ydCBcInNlbGVjdFwiO1xyXG5AaW1wb3J0IFwiY3Vyc29yXCI7XHJcbiIsbnVsbCxudWxsLG51bGwsIi8qKlxuICogVGhpcyBTb3VyY2UgQ29kZSBGb3JtIGlzIHN1YmplY3QgdG8gdGhlIHRlcm1zIG9mIHRoZSBNb3ppbGxhIFB1YmxpY1xuICogTGljZW5zZSwgdi4gMi4wLiBJZiBhIGNvcHkgb2YgdGhlIE1QTCB3YXMgbm90IGRpc3RyaWJ1dGVkIHdpdGggdGhpc1xuICogZmlsZSwgWW91IGNhbiBvYnRhaW4gb25lIGF0IGh0dHA6Ly9tb3ppbGxhLm9yZy9NUEwvMi4wLy5cbiAqL1xuXG5AaW1wb3J0IFwibWlzYy9taXhpbnNcIjtcbkBpbXBvcnQgXCJjb2xvci9taXhpbnNcIjtcbkBpbXBvcnQgXCJ0eXBvZ3JhcGh5L21peGluc1wiO1xuQGltcG9ydCBcIndpbmRvdy9taXhpbnNcIjtcbiIsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGxdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ== */

@@ -5,8 +5,7 @@
  */
 
 // the root directory for cu-styles (include trailing slash if needed)
-$cuStylesRoot: '' !default;
-
+$cu-styles-root: '' !default;
 
 // colors
 $color-dark: #111111 !default;
@@ -14,23 +13,28 @@ $color-gray-dark: #333333 !default;
 $color-gray: #777777 !default;
 $color-light: #efefef !default;
 $color-gray-light: #818a91 !default;
+$color-gray-lightest: #dddddd !default;
 $color-yellow: #AA9739 !default;
 $color-yellow-dark: darken($color-yellow, 5%) !default;
 $color-yellow-light: lighten($color-yellow, 5%) !default;
-$color-red: #960F0F !default;
-$color-red-dark: darken($color-red, 5%) !default;
+$color-red: #6c0c00 !default;
+$color-red-dark: darken($color-red, 10%) !default;
 $color-red-light: lighten($color-red, 5%) !default;
-$color-blue: #0D485E !default;
+$color-blue: #002d4c !default;
 $color-blue-dark: darken($color-blue, 5%) !default;
 $color-blue-light: lighten($color-blue, 5%) !default;
-$color-green: #0C780C !default;
+$color-green: #1a4c00 !default;
 $color-green-dark: darken($color-green, 5%) !default;
-$color-green-light: lighten($color-green, 5%) !default;
+$color-green-light: lighten($color-green, 10%) !default;
+$color-brown: #35200b !default;
+$color-brown-dark: darken($color-brown, 5%) !default;
+$color-brown-light: lighten($color-brown, 10%) !default;
 
 // font
 $font-family-base: sans-serif !default;
-$font-size-root: 14px !default;
+$font-size-root: 12px !default;
 $font-size-base: 1rem !default;
+$font-size-xl: 1.5rem !default;
 $font-size-lg: 1.25rem !default;
 $font-size-sm: .85rem !default;
 $font-size-xs: .75rem !default;

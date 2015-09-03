@@ -6,10 +6,7 @@
 
 $cuStylesRoot: '../' !default;
 
-@import "../parameters";
-@import "../functions";
-@import "../mixins";
-
-@import "mixins";
+@import "../includes";
 
 @import "default/default";
+@import "basic-frame/basic-frame";

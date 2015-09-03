@@ -29,7 +29,7 @@
 }
 
 .cu-bg-color-blue {
- background-color: $color-blue;
+  background-color: $color-blue;
 }
 
 .cu-bg-color-blue-dark {
@@ -41,7 +41,7 @@
 }
 
 .cu-bg-color-green {
- background-color: $color-green;
+  background-color: $color-green;
 }
 
 .cu-bg-color-green-dark {
@@ -52,8 +52,24 @@
   background-color: $color-green-light;
 }
 
+.cu-bg-color-brown {
+  background-color: $color-brown;
+}
+
+.cu-bg-color-brown-dark {
+  background-color: $color-brown-dark;
+}
+
+.cu-bg-color-brown-light {
+  background-color: $color-brown-light;
+}
+
 .cu-bg-color-dark {
   background-color: $color-dark;
+}
+
+.cu-bg-color-gray {
+  background-color: $color-gray;
 }
 
 .cu-bg-color-light {

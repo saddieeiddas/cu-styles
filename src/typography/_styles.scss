@@ -44,10 +44,6 @@
   font-variant: small-caps;
 }
 
-@mixin cu-text-shadow($hShadow: 0, $vShadow: 0, $blurRadius: 1px, $color: #000000) {
-  text-shadow: $hShadow $vShadow $blurRadius $color;
-}
-
 .cu-text-shadow {
   @include cu-text-shadow(0, 0, 1px, #010101);
 }
