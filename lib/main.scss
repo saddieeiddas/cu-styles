@@ -5,8 +5,11 @@
  */
 
 @import "parameters";
+@import "functions";
+@import "mixins";
 
 @import "reset/reset";
 
 @import "typography/typography";
 @import "color/color";
+@import "window/window";

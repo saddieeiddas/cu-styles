@@ -4,9 +4,12 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
+$cuStylesRoot: '../' !default;
+
 @import "../parameters";
 @import "../functions";
 @import "../mixins";
 
-@import "text";
-@import "background"
+@import "mixins";
+
+@import "default/default";

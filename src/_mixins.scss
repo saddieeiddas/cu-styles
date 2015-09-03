@@ -4,9 +4,14 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-@import "../parameters";
-@import "../functions";
-@import "../mixins";
-
-@import "text";
-@import "background"
+@mixin before-after-defaults() {
+  &:before, &:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}

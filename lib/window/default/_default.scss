@@ -1,0 +1,76 @@
+/**
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+
+.cu-window {
+
+  @include cu-window((
+    header: (
+      width: 100%,
+      height: 40px
+    ),
+    content: (
+      width: 100%,
+      height: 100%
+    ),
+    footer: (
+      width: 100%,
+      height: 50px
+    )
+  ));
+
+  background-color: beige;
+
+  .cu-window-header {
+    &:after {
+      background: url('#{$cuStylesRoot}window/default/images/top-left-header.png') no-repeat top left,
+        url('#{$cuStylesRoot}window/default/images/top-right-header.png') no-repeat top right;
+    }
+  }
+
+  .cu-window-content {
+    padding: 10px;
+    &:before {
+      background: url('#{$cuStylesRoot}window/default/images/background.png') no-repeat center center / calc(100% - 18px) 100%;
+    }
+  }
+
+  @include cu-window-content--header--footer {
+    // no background borders when there is header and footer
+  }
+
+  @include cu-window-content--header--no-footer {
+    &:after {
+      background: url('#{$cuStylesRoot}window/default/images/bottom-left.png') no-repeat bottom left,
+        url('#{$cuStylesRoot}window/default/images/bottom-right.png') no-repeat bottom right;
+    }
+  }
+
+  @include cu-window-content--no-header--footer {
+    &:after {
+      background: url('#{$cuStylesRoot}window/default/images/top-left.png') no-repeat top left,
+        url('#{$cuStylesRoot}window/default/images/top-right.png') no-repeat top right;
+    }
+  }
+
+  @include cu-window-content--no-header--no-footer {
+    &:after {
+      background: url('#{$cuStylesRoot}window/default/images/bottom-left.png') no-repeat bottom left,
+        url('#{$cuStylesRoot}window/default/images/bottom-right.png') no-repeat bottom right,
+        url('#{$cuStylesRoot}window/default/images/top-left.png') no-repeat top left,
+        url('#{$cuStylesRoot}window/default/images/top-right.png') no-repeat top right;
+    }
+  }
+
+  .cu-window-footer {
+    &:after {
+      height: 60px;
+      top: -18px;
+      background: url('#{$cuStylesRoot}window/default/images/bottom-left-footer.png') no-repeat bottom left,
+        url('#{$cuStylesRoot}window/default/images/bottom-right-footer.png') no-repeat bottom right,
+        url('#{$cuStylesRoot}window/default/images/bottom-background.png') no-repeat bottom center / 100% 49px;
+    }
+  }
+}

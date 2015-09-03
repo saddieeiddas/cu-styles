@@ -4,9 +4,6 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-@import "../parameters";
-@import "../functions";
-@import "../mixins";
-
-@import "text";
-@import "background"
+@function extend($obj, $ext-obj) {
+  @return map-merge($obj, $ext-obj);
+}
