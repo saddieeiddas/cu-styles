@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" 
+  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{6AE2C434-CAB1-4A81-BF8B-4D6F6CC8194F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.6</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort/>
+    <IISExpressAnonymousAuthentication/>
+    <IISExpressWindowsAuthentication/>
+    <IISExpressUseClassicPipelineMode/>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptAdditionalFlags>--jsx react</TypeScriptAdditionalFlags>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="src\main.scss"/>
+    <Content Include="src\_includes.scss"/>
+    <Content Include="src\_mixins.scss"/>
+    <Content Include="src\_parameters.scss"/>
+    <Content Include="src\color\color.scss"/>
+    <Content Include="src\color\_background.scss"/>
+    <Content Include="src\color\_mixins.scss"/>
+    <Content Include="src\color\_text.scss"/>
+    <Content Include="src\reset\reset.scss"/>
+    <Content Include="src\reset\_normalize.scss"/>
+    <Content Include="src\form\form.scss"/>
+    <Content Include="src\form\_mixins.scss"/>
+    <Content Include="src\misc\misc.scss"/>
+    <Content Include="src\misc\_cursor.scss"/>
+    <Content Include="src\misc\_mixins.scss"/>
+    <Content Include="src\misc\_select.scss"/>
+    <Content Include="src\typography\typography.scss"/>
+    <Content Include="src\typography\_fonts.scss"/>
+    <Content Include="src\typography\_lists.scss"/>
+    <Content Include="src\typography\_mixins.scss"/>
+    <Content Include="src\typography\_styles.scss"/>
+    <Content Include="src\typography\_tables.scss"/>
+    <Content Include="src\window\window.scss"/>
+    <Content Include="src\window\_mixins.scss"/>
+    <Content Include="src\form\default\_default.scss"/>
+    <Content Include="src\typography\fonts\Cinzel-normal-400.woff"/>
+    <Content Include="src\typography\fonts\Cinzel-normal-700.woff"/>
+    <Content Include="src\typography\fonts\Cinzel-normal-900.woff"/>
+    <Content Include="src\typography\fonts\Merriweather_Sans-italic-300.woff"/>
+    <Content Include="src\typography\fonts\Merriweather_Sans-italic-400.woff"/>
+    <Content Include="src\typography\fonts\Merriweather_Sans-italic-700.woff"/>
+    <Content Include="src\typography\fonts\Merriweather_Sans-italic-800.woff"/>
+    <Content Include="src\typography\fonts\Merriweather_Sans-normal-300.woff"/>
+    <Content Include="src\typography\fonts\Merriweather_Sans-normal-400.woff"/>
+    <Content Include="src\typography\fonts\Merriweather_Sans-normal-700.woff"/>
+    <Content Include="src\typography\fonts\Merriweather_Sans-normal-800.woff"/>
+    <Content Include="src\typography\fonts\Trade_Winds-normal-400.woff"/>
+    <Content Include="src\window\images\canvas-effect.png"/>
+    <Content Include="src\window\basic-frame\_basic-frame.scss"/>
+    <Content Include="src\window\default\_default.scss"/>
+    <Content Include="src\window\default\_mixins.scss"/>
+    <Content Include="src\window\basic-frame\images\bottom-left.png"/>
+    <Content Include="src\window\basic-frame\images\bottom-right.png"/>
+    <Content Include="src\window\basic-frame\images\bottom.png"/>
+    <Content Include="src\window\basic-frame\images\left.png"/>
+    <Content Include="src\window\basic-frame\images\right.png"/>
+    <Content Include="src\window\basic-frame\images\top-left.png"/>
+    <Content Include="src\window\basic-frame\images\top-right.png"/>
+    <Content Include="src\window\basic-frame\images\top.png"/>
+    <Content Include="src\window\default\images\bottom-background.png"/>
+    <Content Include="src\window\default\images\bottom-left-footer.png"/>
+    <Content Include="src\window\default\images\bottom-left.png"/>
+    <Content Include="src\window\default\images\bottom-right-footer.png"/>
+    <Content Include="src\window\default\images\bottom-right.png"/>
+    <Content Include="src\window\default\images\top-background.png"/>
+    <Content Include="src\window\default\images\top-left-header.png"/>
+    <Content Include="src\window\default\images\top-left.png"/>
+    <Content Include="src\window\default\images\top-right-header.png"/>
+    <Content Include="src\window\default\images\top-right.png"/>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>UI</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets"/>
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets')"/>
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''"/>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1336</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1336/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl></CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- ************* GULP BUILD ************* -->
+  <Target Name="Node">
+    <Exec Command="$(WINDIR)\system32\where.exe node" ContinueOnError="true" IgnoreExitCode="true" ConsoleToMsBuild="true">
+      <Output TaskParameter="ExitCode" PropertyName="ExecExitCode"/>
+      <Output TaskParameter="ConsoleOutput" PropertyName="NodePath"/>
+    </Exec>
+    <PropertyGroup Condition=" '$(ExecExitCode)' == '0' AND '$(NodePath)' != '' ">
+      <NodePath>$([System.IO.Path]::GetDirectoryName('$(NodePath)'))</NodePath>
+    </PropertyGroup>
+    <Error Condition=" '$(NodePath)' == '' OR !Exists('$(NodePath)') " Text="Node.js is not installed, please install it from https://nodejs.org/."/>
+  </Target>
+  <Target Name="Gulp" DependsOnTargets="Node">
+    <Exec Command="$(WINDIR)\system32\where.exe gulp.cmd" ContinueOnError="true" IgnoreExitCode="true" ConsoleToMsBuild="true">
+      <Output TaskParameter="ExitCode" PropertyName="ExecExitCode"/>
+      <Output TaskParameter="ConsoleOutput" PropertyName="GulpPath"/>
+    </Exec>
+    <Message Importance="high" Text="Installing Gulp..." Condition=" '$(GulpPath)' == '' OR !Exists('$(GulpPath)') "/>
+    <Exec Command="$(WINDIR)\system32\cmd.exe /C &quot;&quot;$(NodePath)\npm.cmd&quot; install -g gulp&quot;" IgnoreExitCode="true" Condition=" '$(GulpPath)' == '' OR !Exists('$(GulpPath)') ">
+      <Output TaskParameter="ExitCode" PropertyName="ExecExitCode"/>
+    </Exec>
+    <Error Condition=" '$(ExecExitCode)' != '0' " Text="Failed to automatically install Gulp, please run `npm install gulp -g` from a commandline."/>
+    <Exec Command="$(WINDIR)\system32\where.exe gulp.cmd" ContinueOnError="true" IgnoreExitCode="true" ConsoleToMsBuild="true" Condition=" '$(GulpPath)' == '' OR !Exists('$(GulpPath)') ">
+      <Output TaskParameter="ExitCode" PropertyName="ExecExitCode"/>
+      <Output TaskParameter="ConsoleOutput" PropertyName="GulpPath"/>
+    </Exec>
+    <Error Condition=" '$(GulpPath)' == '' OR !Exists('$(GulpPath)') " Text="Can't find Gulp even after installing it, please run `npm install gulp -g` from a commandline."/>
+    <PropertyGroup Condition=" '$(GulpPath)' != '' ">
+      <GulpPath>$([System.IO.Path]::GetDirectoryName('$(GulpPath)'))</GulpPath>
+    </PropertyGroup>
+  </Target>
+  <Target Name="GulpBuild" DependsOnTargets="Gulp" BeforeTargets="Build">
+    <Exec Command=" $(WINDIR)\system32\cmd.exe /C &quot;&quot;$(GulpPath)\gulp.cmd&quot; build --vsgen false&quot; " ContinueOnError="true" IgnoreExitCode="true" WorkingDirectory="$(MSBuildProjectDirectory)">
+      <Output TaskParameter="ExitCode" PropertyName="ExecExitCode"/>
+    </Exec>
+    <Error Condition=" '$(ExecExitCode)' != '0' " Text="Gulp indicated a failure."/>
+  </Target>
+</Project>
