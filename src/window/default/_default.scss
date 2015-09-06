@@ -244,6 +244,10 @@
     display: inline-block;
     position: relative;
     top: -1px;
+    &:before {
+      position: absolute;
+      left: 0;
+    }
     &:hover {
       color: $color-gray-lightest;
     }
@@ -263,7 +267,6 @@
     @extend .cu-window-action;
     &:before {
       content: "\2212";
-      position: absolute;
     }
     &:hover {
       @include cu-text-shadow($hShadow: 0, $vShadow: 0, $blurRadius: 5px, $color: $color-blue);
@@ -274,7 +277,6 @@
     @extend .cu-window-action;
     &:before {
       content: "\002B";
-      position: absolute;
     }
     &:hover {
       @include cu-text-shadow($hShadow: 0, $vShadow: 0, $blurRadius: 5px, $color: $color-blue);
@@ -286,7 +288,6 @@
     &:before {
       content: "\25BC";
       font-size: 0.75rem;
-      position: absolute;
     }
     &:hover {
       @include cu-text-shadow($hShadow: 0, $vShadow: 0, $blurRadius: 5px, $color: $color-blue);
@@ -298,7 +299,6 @@
     &:before {
       content: "\25B2";
       font-size: 0.75rem;
-      position: absolute;
     }
     &:hover {
       @include cu-text-shadow($hShadow: 0, $vShadow: 0, $blurRadius: 5px, $color: $color-blue);
