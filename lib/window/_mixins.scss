@@ -24,6 +24,11 @@
   display: flex;
   flex-direction: column;
 
+  &.cu-window-auto-size {
+    height: auto;
+    display: block;
+  }
+
   .cu-window-header {
     position: relative;
     width: $header-width;

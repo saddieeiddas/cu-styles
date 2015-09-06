@@ -263,6 +263,42 @@
     @extend .cu-window-action;
     &:before {
       content: "\2212";
+      position: absolute;
+    }
+    &:hover {
+      @include cu-text-shadow($hShadow: 0, $vShadow: 0, $blurRadius: 5px, $color: $color-blue);
+    }
+  }
+
+  .cu-window-maximize {
+    @extend .cu-window-action;
+    &:before {
+      content: "\002B";
+      position: absolute;
+    }
+    &:hover {
+      @include cu-text-shadow($hShadow: 0, $vShadow: 0, $blurRadius: 5px, $color: $color-blue);
+    }
+  }
+
+  .cu-window-down-arrow {
+    @extend .cu-window-action;
+    &:before {
+      content: "\25BC";
+      font-size: 0.75rem;
+      position: absolute;
+    }
+    &:hover {
+      @include cu-text-shadow($hShadow: 0, $vShadow: 0, $blurRadius: 5px, $color: $color-blue);
+    }
+  }
+
+  .cu-window-up-arrow {
+    @extend .cu-window-action;
+    &:before {
+      content: "\25B2";
+      font-size: 0.75rem;
+      position: absolute;
     }
     &:hover {
       @include cu-text-shadow($hShadow: 0, $vShadow: 0, $blurRadius: 5px, $color: $color-blue);
