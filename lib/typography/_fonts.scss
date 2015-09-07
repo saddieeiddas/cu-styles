@@ -105,3 +105,23 @@
 .cu-font-trade-winds {
   @include cu-font-trade-winds();
 }
+
+// Roboto Mono
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$cu-styles-root}typography/fonts/Roboto_Mono-normal-400.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  src: url('#{$cu-styles-root}typography/fonts/Roboto_Mono-normal-500.woff') format('woff');
+}
+
+.cu-font-roboto-mono {
+  @include cu-font-roboto-mono();
+}
