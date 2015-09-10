@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/csegames/cu-boilerplate-library.git"
+    "url": "https://github.com/CUModSquad/cu-styles.git"
   },
   "dependencies": {
     "bourbon": "^4.2.4"
