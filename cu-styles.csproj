@@ -29,31 +29,28 @@
     <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="src\main.scss"/>
     <Content Include="src\_includes.scss"/>
     <Content Include="src\_mixins.scss"/>
     <Content Include="src\_parameters.scss"/>
-    <Content Include="src\color\color.scss"/>
     <Content Include="src\color\_background.scss"/>
     <Content Include="src\color\_mixins.scss"/>
     <Content Include="src\color\_text.scss"/>
-    <Content Include="src\form\form.scss"/>
+    <Content Include="src\color\color.scss"/>
     <Content Include="src\form\_mixins.scss"/>
-    <Content Include="src\misc\misc.scss"/>
+    <Content Include="src\form\default\_default.scss"/>
+    <Content Include="src\form\form.scss"/>
+    <Content Include="src\main.scss"/>
     <Content Include="src\misc\_cursor.scss"/>
     <Content Include="src\misc\_mixins.scss"/>
     <Content Include="src\misc\_select.scss"/>
-    <Content Include="src\reset\reset.scss"/>
+    <Content Include="src\misc\misc.scss"/>
     <Content Include="src\reset\_normalize.scss"/>
-    <Content Include="src\typography\typography.scss"/>
+    <Content Include="src\reset\reset.scss"/>
     <Content Include="src\typography\_fonts.scss"/>
     <Content Include="src\typography\_lists.scss"/>
     <Content Include="src\typography\_mixins.scss"/>
     <Content Include="src\typography\_styles.scss"/>
     <Content Include="src\typography\_tables.scss"/>
-    <Content Include="src\window\window.scss"/>
-    <Content Include="src\window\_mixins.scss"/>
-    <Content Include="src\form\default\_default.scss"/>
     <Content Include="src\typography\fonts\Cinzel-normal-400.woff"/>
     <Content Include="src\typography\fonts\Cinzel-normal-700.woff"/>
     <Content Include="src\typography\fonts\Cinzel-normal-900.woff"/>
@@ -68,10 +65,9 @@
     <Content Include="src\typography\fonts\Roboto_Mono-normal-400.woff"/>
     <Content Include="src\typography\fonts\Roboto_Mono-normal-500.woff"/>
     <Content Include="src\typography\fonts\Trade_Winds-normal-400.woff"/>
+    <Content Include="src\typography\typography.scss"/>
+    <Content Include="src\window\_mixins.scss"/>
     <Content Include="src\window\basic-frame\_basic-frame.scss"/>
-    <Content Include="src\window\default\_default.scss"/>
-    <Content Include="src\window\default\_mixins.scss"/>
-    <Content Include="src\window\images\canvas-effect.png"/>
     <Content Include="src\window\basic-frame\images\bottom-left.png"/>
     <Content Include="src\window\basic-frame\images\bottom-right.png"/>
     <Content Include="src\window\basic-frame\images\bottom.png"/>
@@ -80,6 +76,8 @@
     <Content Include="src\window\basic-frame\images\top-left.png"/>
     <Content Include="src\window\basic-frame\images\top-right.png"/>
     <Content Include="src\window\basic-frame\images\top.png"/>
+    <Content Include="src\window\default\_default.scss"/>
+    <Content Include="src\window\default\_mixins.scss"/>
     <Content Include="src\window\default\images\bottom-background.png"/>
     <Content Include="src\window\default\images\bottom-left-footer.png"/>
     <Content Include="src\window\default\images\bottom-left.png"/>
@@ -90,6 +88,8 @@
     <Content Include="src\window\default\images\top-left.png"/>
     <Content Include="src\window\default\images\top-right-header.png"/>
     <Content Include="src\window\default\images\top-right.png"/>
+    <Content Include="src\window\images\canvas-effect.png"/>
+    <Content Include="src\window\window.scss"/>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
