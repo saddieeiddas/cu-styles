@@ -28,6 +28,6 @@
   },
   "devDependencies": {
     "gulp": "^3.9.0",
-    "cu-build-tools": "git+https://github.com/CUModSquad/cu-build-tools.git#master"
+    "cu-build-tools": "^0.1.8"
   }
 }
